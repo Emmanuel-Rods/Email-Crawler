@@ -152,3 +152,5 @@ async function run(){
   const jsonArray = excelToArrayJson(filePath);
   await processRowsAndSave(jsonArray , fileName)
 }
+
+run()
